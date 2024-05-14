@@ -4,7 +4,6 @@
 **<h2>Table of Contents</h2>**
     <ul>
         <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#project-structure">Project Structure</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#dataset">Dataset</a></li>
@@ -42,20 +41,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`</code></pre>
             <pre><code>jupyter notebook</code></pre>
         </li>
         <li>Open the notebook <code>Linear_Regression_Price_Prediction.ipynb</code> in the <code>notebooks</code> directory and run the cells to see the analysis and results.</li>
-    </ol>
-
-    <h3>Running the Scripts</h3>
-    <p>You can also run the individual scripts for data preprocessing, model training, and prediction:</p>
-    <ol>
-        <li>Data Preprocessing:
-            <pre><code>python src/data_preprocessing.py</code></pre>
-        </li>
-        <li>Model Training:
-            <pre><code>python src/model_training.py</code></pre>
-        </li>
-        <li>Making Predictions:
-            <pre><code>python src/prediction.py --area 3300</code></pre>
-        </li>
     </ol>
 
 **<h2>Dataset</h2>**
